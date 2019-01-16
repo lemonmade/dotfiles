@@ -1,17 +1,17 @@
-export ZSH="~/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
 
 HYPHEN_INSENSITIVE="true"
 ENABLE_CORRECTION="true"
+DEFAULT_USER=$USER
 
 plugins=(z git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
 autoload -U promptinit; promptinit
-prompt pure
 
 # User
 
