@@ -12,6 +12,7 @@ plugins=(z git zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 autoload -U promptinit; promptinit
+unsetopt correct_all
 
 # User
 
