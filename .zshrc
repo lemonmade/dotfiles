@@ -25,7 +25,8 @@ else
 fi
 
 export SSH_KEY_PATH="~/.ssh/rsa_id"
-export PATH=$PATH:./node_modules/.bin
+export GOPATH=$HOME
+export PATH=$GOPATH/bin:$PATH:./node_modules/.bin
 
 ### nvm
 
